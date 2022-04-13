@@ -1,2 +1,2 @@
 # -
-PythonとKivyを使用した動物トランプゲームです
+Animal trump game which use Python and Kivy
