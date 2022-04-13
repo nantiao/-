@@ -1,7 +1,7 @@
 # -
 Animal trump game which use Python and Kivy\
 main.py has main code, 勉強アプリkivy.py has kivy code.\
-Jpg file is necessary to 
+Jpg file is necessary to run main.py
 
 pythonとkivyを使用した動物神経衰弱ゲーム\
 メインのpythonコードはmain.py,　kivyのコードは勉強アプリkivy.pyに保存されています。\
