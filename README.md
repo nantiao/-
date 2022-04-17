@@ -24,3 +24,4 @@ Jpgファイルはmain.pyを実行する上で必要となります。
 <img width="265" alt="Animal Trump4" src="https://user-images.githubusercontent.com/103519421/163701858-85cb03de-c5b7-4246-9823-7b35fa6053b8.png">\
 説明6\
 説明1から5を繰り返して20枚のカードをすべてそろえましょう。\
+<img width="268" alt="Animal Trump5" src="https://user-images.githubusercontent.com/103519421/163703621-f2c61623-54d3-45db-a47a-a3a8da29a3ee.png">\
