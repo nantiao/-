@@ -313,77 +313,106 @@ class Title2(Screen):
     def btn21_change(self):
         self.ids.btn21.background_color=(3,0,0,1)
         swich.remove(1)
-        
+
     def deck(self):
-
         if len(open_card_list)==2:
-            print("go")
-
-            if open_card_list[0]==open_card_list[1]:
+            return self.deck1()
+        if len(open_card_list)==4:
+            return self.deck2()
+        if len(open_card_list)==6:
+            return self.deck3()
+        if len(open_card_list)==8:
+            return self.deck4()
+        if len(open_card_list)==10:
+            return self.deck5()
+        if len(open_card_list)==12:
+            return self.deck6()
+        if len(open_card_list)==14:
+            return self.deck7()
+        if len(open_card_list)==16:
+            return self.deck8()
+        if len(open_card_list)==18:
+            return self.deck9()
+        if len(open_card_list)==20:
+            return self.deck10()
+    
+    def deck1(self):
+        if open_card_list[0]==open_card_list[1]:
                 print(open_card_list)
                 
-                if len(open_card_list)==4 and open_card_list[2]==open_card_list[3]:
-                    pass
-                    if len(open_card_list)==6 and open_card_list[4]==open_card_list[5]:
-                        pass
-                    
-                    
-                        if len(open_card_list)==8 and open_card_list[6]==open_card_list[7]:
-                            pass
-                        
-                            if len(open_card_list)==10 and open_card_list[8]==open_card_list[9]:
-                                pass
-                                
-                                if len(open_card_list)==12 and open_card_list[10]==open_card_list[11]:
-                                    pass
-                                
-                                    if len(open_card_list)==14 and open_card_list[12]==open_card_list[13]:
-                                        pass
-
-                                        if len(open_card_list)==16 and open_card_list[14]==open_card_list[15]:
-                                            pass
-                                        
-                                            if len(open_card_list)==18 and open_card_list[16]==open_card_list[17]:
-                                                pass
-                                            
-                                                if len(open_card_list)==20 and open_card_list[18]==open_card_list[19]:
-                                                    pass
-                                                
-                                                elif len(open_card_list)==20 and open_card_list[18] is not open_card_list[19]:
-                                                    print(open_card_list)
-                                                    self.btn21_change()
-                                            elif len(open_card_list)==18 and open_card_list[16] is not open_card_list[17]:
-                                                print(open_card_list)
-                                                self.btn21_change()
-                                        elif len(open_card_list)==16 and open_card_list[14] is not open_card_list[15]:
-                                            print(open_card_list)
-                                            self.btn21_change()
-                                    elif len(open_card_list)==14 and open_card_list[12] is not open_card_list[13]:
-                                        print(open_card_list)
-                                        self.btn21_change()
-                                elif len(open_card_list)==12 and open_card_list[10] is not open_card_list[11]:
-                                    print(open_card_list)
-                                    self.btn21_change()
-                            elif len(open_card_list)==10 and open_card_list[8] is not open_card_list[9]:
-                                print(open_card_list)
-                                self.btn21_change()                      
-                        elif len(open_card_list)==8 and open_card_list[6] is not open_card_list[7]:
-                            print(open_card_list)
-                            self.btn21_change()
-
-                    elif len(open_card_list)==6 and open_card_list[4] is not open_card_list[5]:
-                        print(open_card_list)
-      
-                elif len(open_card_list)==4 and open_card_list[2] is not open_card_list[3]:
-                    print(open_card_list)
-                    self.btn21_change()
-            elif len(open_card_list)==2 and open_card_list[0] is not open_card_list[1]:
+        elif open_card_list[0] is not open_card_list[1]:
                 print(open_card_list)
                 self.btn21_change()
-                            
-                    
                 
+    def deck2(self):
+        if open_card_list[2]==open_card_list[3]:
+                print(open_card_list)
+                
+        elif open_card_list[2] is not open_card_list[3]:
+                print(open_card_list)
+                self.btn21_change()
 
+    def deck3(self):
+        if open_card_list[4]==open_card_list[5]:
+                print(open_card_list)
+                
+        elif open_card_list[4] is not open_card_list[5]:
+                print(open_card_list)
+                self.btn21_change()
+
+    def deck4(self):
+        if open_card_list[6]==open_card_list[7]:
+                print(open_card_list)
+                
+        elif open_card_list[6] is not open_card_list[7]:
+                print(open_card_list)
+                self.btn21_change()
+
+    def deck5(self):
+        if open_card_list[8]==open_card_list[9]:
+                print(open_card_list)
+                
+        elif open_card_list[8] is not open_card_list[9]:
+                print(open_card_list)
+                self.btn21_change()
+    def deck6(self):
+        if open_card_list[10]==open_card_list[11]:
+                print(open_card_list)
+                
+        elif open_card_list[10] is not open_card_list[11]:
+                print(open_card_list)
+                self.btn21_change()
+    def deck7(self):
+        if open_card_list[12]==open_card_list[13]:
+                print(open_card_list)
+                
+        elif open_card_list[12] is not open_card_list[13]:
+                print(open_card_list)
+                self.btn21_change()
+
+    def deck8(self):
+        if open_card_list[14]==open_card_list[15]:
+                print(open_card_list)
+                
+        elif open_card_list[14] is not open_card_list[15]:
+                print(open_card_list)
+                self.btn21_change()
+
+    def deck9(self):
+        if open_card_list[16]==open_card_list[17]:
+                print(open_card_list)
+                
+        elif open_card_list[16] is not open_card_list[17]:
+                print(open_card_list)
+                self.btn21_change()
+
+    def deck10(self):
+        if open_card_list[18]==open_card_list[19]:
+                print(open_card_list)
+                
+        elif open_card_list[18] is not open_card_list[19]:
+                print(open_card_list)
+                self.btn21_change() 
 
         
 sm=ScreenManager()
